@@ -1,0 +1,45 @@
+/* Add this inside a <style> tag in the <head> or link to a separate .css file */
+
+body {
+    display: grid;
+}
+
+form {
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 25%;
+    padding: 20px;
+    border-radius: 8px;    
+}
+    
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    width: 100%;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
